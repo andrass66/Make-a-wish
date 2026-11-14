@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Make a Wish — for Brian</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stage">
+  <canvas id="game" width="320" height="180"></canvas>
+  <div id="hint"></div>
+  <div id="toast"></div>
+  <div id="caption"><div class="c1"></div><div class="c2"></div></div>
+  <div id="dlg"><div class="name"></div><div class="text"></div><div class="more">▼</div></div>
+  <div id="ask"><div class="label"></div><div class="field"><input id="askInput" maxlength="300" autocomplete="off" spellcheck="false"><span class="mask"></span></div><div class="enter">ENTER ⏎</div></div>
+  <div id="phone"><div class="top">Celine</div><div class="msgs"></div></div>
+  <div id="photoPop"><img alt=""><div class="cap"></div><div class="close">Q / E to close</div></div>
+  <div id="letter"><div class="body"></div><div class="next">E ▶</div></div>
+</div>
+<script src="engine.js"></script>
+<script src="art.js"></script>
+<script src="scenes1.js"></script>
+<script src="scenes2.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
